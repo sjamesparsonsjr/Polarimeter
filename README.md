@@ -1,7 +1,6 @@
 
 
-![Polarimeter Logo](/Polarimeter.png)
-<img src="/Polarimeter.png" width="48">
+<img src="/Polarimeter.png" width="300">
 
 # Open Source Polarimeter 
 
