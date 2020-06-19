@@ -25,21 +25,88 @@ A polarimeter was used to graph the change in solution over time.  First, light 
 
 
 ## Support Websites
-[Buy Open Soruce Polarimeter](https://www.celleleven.com/)
+[Buy Open Soruce Polarimeter](https://www.celleleven.com/product/Polarimeter/)
 
 [Wikipedia](https://en.wikipedia.org/wiki/Michaelis%E2%80%93Menten_kinetics)
 
 [Background Experiment](https://user.eng.umd.edu/~nsw/ench485/lab14.htm)
 
 
-## Steps
+## Hardware
+|  Qty | Name | Cost | URL |
+| --- | --- | --- | --- |
+|  1 | Power Supply | $17.58 | https://amzn.to/3dgtzXP |
+|  1 | Arduino | $3.00 | https://bit.ly/3diSqKC |
+|  1 | 28BYJ-48 Stepper | $2.50 | https://amzn.to/37V8elP |
+|  1 | Photo Diode | $0.18 | https://amzn.to/2zKd7RM |
+|  1 | Quartz Cuvette | $0.16 | https://bit.ly/3ehhqD7 |
+|  1 | LED 590mm | $0.71 | https://amzn.to/37QtQ2v |
+|  1 | Peltier | $3.10 | https://amzn.to/3ejcOfI |
+|  1 | Polarizer Film | $0.21 | https://amzn.to/2Nbyajc |
+|  1 | Fan | $1.80 | https://amzn.to/2Bpr87S |
+|  1 | OLED 128x | $7.49 | https://amzn.to/2YiiQI5 |
+|  1 | Thermistor | 0.21 | https://amzn.to/2YgyELv |
+|  1 | Heatsink n pad | $2.00 | https://amzn.to/2zQ5uJK |
+|  1 | Relay | $1.50 | https://amzn.to/37LQWre |
+|  10 | 5m Screw | $1.16 | https://bit.ly/3ddSOKp |
+|  10 | 5m nuts | $0.66 | https://amzn.to/3di7AiY |
+|  1 | Case |  | [Laser Cut or 3D Print Frame gcode](https://www.thingiverse.com/thing:4484626) |
+|   | **Total** | $42.25 |  |
 
-## Manual
 
+
+## Assembly
+1. Add Arduino to base with screws
+2. Solder wires and components onto Arduino Sheild
+3. Attach Sheild to Arduino 
+4. Fit RJ-11 Plug into Wall-Right hole and screw in T-slots
+5. Connect wires to JST-XHP connectors
+6. Add Fan to rib with screws
+7. Attach rib to Wall-Right
+8. Snake wires through the rib
+9.  Attach 28BYJ-48 Stepper driver and motor to spine
+10. Add Wall-Left and screw in T-slots
+11. Connect JST-XHP wires to 29BYJ-48 Stepper
+12. Snake wires through the spine
+13. Assemble Cooling Block
+14. Attach Colling Block to Rib
+15. Add Roof and screw in T-Slots
+16. Solder OLED, (4) Buttons, Wires, and JST-XHP connector to PCB
+17. Assemble the DashBoard
+18. Attach the remaining wire to the DashBoard
+19. Attach DashBoard to Roof and screw in T-slots
+20. Power On
+
+
+
+## Directions
+#### Get Solution Rotation Angle
+1. Plug-in Device
+2. Loading Splash will run on OLED Screen
+3. Remove Cuvet and allow for calibration
+4. Add solution to Cuvet and place in Polarimeter
+5. Click the button that reads "Run Sample"
+
+####  Get Michaelis-Menton Rate
+1. Plug-in Device
+2. Loading Splash will run on OLED Screen
+3. Remove Cuvet and allow for calibration
+4. Add solution to Cuvet and place in Polarimeter
+5. Click the button that reads "Michaelis-Menton Kinetics"
+
+
+## Trouble Shooting
+1. Recalibrate
+2. Go to settings and change EPROMS calibration values
 
 ## Authors
 
 * **[S James Parsons Jr](https://www.linkedin.com/in/sjamesparsonsjr/)** 
+
+## Purchase
+[![Donation](https://i1.wp.com/calumetartcenter.com/wp-content/uploads/2013/02/paypal-buy-now-button.png?fit=284%2C136&ssl=1)](https://i1.wp.com/calumetartcenter.com/wp-content/uploads/2013/02/paypal-buy-now-button.png?fit=284%2C136&ssl=1)
+
+
 
 ## License
 
