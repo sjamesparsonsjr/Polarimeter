@@ -56,26 +56,38 @@ A polarimeter was used to graph the change in solution over time.  First, light 
 
 
 ## Assembly
+### Software
+1. [Download Arduino IDE](https://www.arduino.cc/en/main/software)
+2. Download this Zip File to your computer
+3. Navigate to the ``Polarimeter Code`` folder
+4. Upload Polariemter Code to Arduino 
+
+### Electronics
+1. Solder wires and components onto Arduino Sheild PCB
+2. Solder OLED, (4) Buttons, Wires, and JST-XHP connector to PCB
+
+### Case
+1. [Laser Cut or 3D Print Frame gcode](https://www.thingiverse.com/thing:4484626) <br>Roof<br>Base<br>Spine<br>Rib<br>Wall-Right<br>Wall-Left<br>Dash<br>Dash Stands x 2 <br> Cooling Block Top <br> Cooling Block Bottom<br>Buttons
+
+### Hardware
 1. Add Arduino to base with screws
-2. Solder wires and components onto Arduino Sheild
-3. Attach Sheild to Arduino 
-4. Fit RJ-11 Plug into Wall-Right hole and screw in T-slots
-5. Connect wires to JST-XHP connectors
-6. Add Fan to rib with screws
-7. Attach rib to Wall-Right
-8. Snake wires through the rib
-9.  Attach 28BYJ-48 Stepper driver and motor to spine
-10. Add Wall-Left and screw in T-slots
-11. Connect JST-XHP wires to 29BYJ-48 Stepper
-12. Snake wires through the spine
-13. Assemble Cooling Block
-14. Attach Colling Block to Rib
-15. Add Roof and screw in T-Slots
-16. Solder OLED, (4) Buttons, Wires, and JST-XHP connector to PCB
-17. Assemble the DashBoard
-18. Attach the remaining wire to the DashBoard
-19. Attach DashBoard to Roof and screw in T-slots
-20. Power On
+2. Attach Sheild to Arduino 
+3. Fit RJ-11 Plug into Wall-Right hole and screw in T-slots
+4. Connect wires to JST-XHP connectors
+5. Add Fan to rib with screws
+6. Attach rib to Wall-Right
+7. Snake wires through the rib
+8.  Attach 28BYJ-48 Stepper driver and motor to spine
+9. Add Wall-Left and screw in T-slots
+10. Connect JST-XHP wires to 29BYJ-48 Stepper
+11. Snake wires through the spine
+12. Assemble Cooling Block
+13. Attach Colling Block to Rib
+14. Add Roof and screw in T-Slots
+15. 16. Assemble the DashBoard
+16. Attach the remaining wire to the DashBoard
+17. Attach DashBoard to Roof and screw in T-slots
+18. Power On
 
 
 
