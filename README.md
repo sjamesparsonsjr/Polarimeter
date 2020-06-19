@@ -1,6 +1,6 @@
 
 
-![Polarimeter Logo](/Polarimeter.png)
+![Polarimeter Logo](/Polarimeter.png = 250x250)
 
 # Open Source Polarimeter 
 
